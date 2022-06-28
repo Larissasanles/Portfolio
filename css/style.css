@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+background-color:#CC4418;
+}
+
+html{
+    font-size: 62.5%;
+}
+header{
+    background-image: url(../assets/fox-img.png);
+    height: 100vh;
+    
+}
+a:hover{
+transition: all 300ms;
+color: orangered;
+}
+.LB{
+    display: flex;
+    align-items: center;
+    gap: 1.0rem;  
+}
+
+.LB, .menu, .button, h1, h3, h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 1018px;
+    margin: 0 auto;
+    padding: 0 3.0rem;
+    position: relative;
+    top: 3.6rem;  
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 6.0rem;
+    font-size: 1.2rem; 
+}
+a{
+    text-decoration: none;
+}
+.yo{
+    display: flex;
+    position: absolute;
+    top: 21.4rem;
+    left: 17.5rem;
+    
+}
+h2::before{
+    content: "Olá, meu nome é";
+    font-size: 1.6rem;
+    position: absolute;
+    top: -2rem;
+
+}
+h2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 4.0rem;
+    position: relative;
+
+}
+article{
+    margin-top: 32.2rem;
+    margin-left: 69.7rem;
+    width: 56.2rem;
+}
+p{
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.1rem;
+}
+div{
+    margin-top: 4.3rem;
+}
+
+.button{
+    border-radius: 332px;
+    background: #FC8313;
+    padding: 0.9rem 1.6rem;
+    width: 20.4rem;
+    color: white;
+    font-size: 3.2rem;
+
+}
+.habil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    width: 95.6rem;
+    height: 20.6rem;
+    border-radius: 0.8rem;
+    padding: 5.8rem, 2.6rem, 5.8rem, 2.6rem;
+    background-color: white;
+}
+.habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5.8rem;
+    flex-direction: row;
+    gap: 11.1rem;
+    
+}
+h1{
+    margin: 1.0rem auto 0;
+    font-weight: 600;
+    font-size: 7.0rem;
+    line-height: 9.1rem;
+    width: 63.8rem;
+    color: white;
+    margin-bottom: 2.0rem;
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.4rem;
+    gap: 3.7rem;
+}
+
+.pontos_2{
+    width: 4.6rem;
+    margin: 3.7rem auto;
+}
+
+
+.img_1{
+    width: 53.6rem;
+    height: 50.7rem;
+    background-image: url(../assets/fundo1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 3.0rem 1.0rem;
+    align-items: center;
+    text-align: center;
+    gap: 2.2rem;
+    border-radius: 1.0rem;
+
+
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    font-weight: 400;
+    font-size: 5.8rem;
+}
+footer{
+    background-image: url(../assets/Rectangle.png);
+    height: 17.4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.contatos{
+    display: flex;
+    gap: 4.7rem;
+}
+h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0.9rem 0 1.6rem 0;
+
+}
